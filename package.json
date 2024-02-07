@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
-    "build": "tsc -p . && node ./dist/index.js",
-    "start": "tsc -p . && node ./dist/index.js",
+   "dev": "nodemon ./src/index.ts",
+    "start": "ts-node ./src/index.ts",
+    "build":"tsc -p ."
     "watch": "ts -watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
